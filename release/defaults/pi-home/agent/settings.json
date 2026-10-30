@@ -1,0 +1,24 @@
+{
+  "defaultProjectTrust": "ask",
+  "defaultTools": [
+    "read",
+    "powershell",
+    "edit",
+    "write"
+  ],
+  "defaultProvider": "deepseek",
+  "defaultModel": "deepseek-chat",
+  "defaultThinkingLevel": "off",
+  "enableSkillCommands": true,
+  "enableInstallTelemetry": false,
+  "enableAnalytics": false,
+  "showHardwareCursor": true,
+  "theme": "dark",
+  "retry": {
+    "enabled": true,
+    "maxRetries": 3
+  },
+  "terminal": {
+    "clearOnShrink": true
+  }
+}

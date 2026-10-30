@@ -1,0 +1,1 @@
+使用 pc-repair 技能：运行 powershell -NoProfile -ExecutionPolicy Bypass -File core\ps\collect.ps1 -Fast 进行快速体检（只读），然后阅读 reports\ 下最新的 diagnosis.txt 与 findings.ini，把「问题定位 + 严重度 + 修复建议」用中文汇总，并写入 reports\ 下最新目录的 ai_analysis.txt（UTF-8）。全程只读，不得执行任何修复操作。

@@ -1,0 +1,1838 @@
+[
+  {
+    "name": "pi-extension-custom-provider-anthropic",
+    "version": "0.85.1",
+    "path": "node_modules/@earendil-works/pi-coding-agent/examples/extensions/custom-provider-anthropic",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "pi-extension-custom-provider-gitlab-duo",
+    "version": "0.85.1",
+    "path": "node_modules/@earendil-works/pi-coding-agent/examples/extensions/custom-provider-gitlab-duo",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "pi-extension-gondolin",
+    "version": "0.85.1",
+    "path": "node_modules/@earendil-works/pi-coding-agent/examples/extensions/gondolin",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "pi-extension-sandbox",
+    "version": "1.15.1",
+    "path": "node_modules/@earendil-works/pi-coding-agent/examples/extensions/sandbox",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "pi-extension-with-deps",
+    "version": "0.85.1",
+    "path": "node_modules/@earendil-works/pi-coding-agent/examples/extensions/with-deps",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@earendil-works/pi-example-plugin",
+    "version": "1.0.0",
+    "path": "node_modules/@earendil-works/pi-coding-agent/examples/plugins/pi-example-plugin",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@anthropic-ai/sdk",
+    "version": "0.123.0",
+    "license": "MIT",
+    "repository": "github:anthropics/anthropic-sdk-typescript",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@anthropic-ai/sdk",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@anthropic-ai/sdk/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws/lambda-invoke-store",
+    "version": "0.2.4",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/awslabs/aws-lambda-invoke-store.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws/lambda-invoke-store",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws/lambda-invoke-store/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-crypto/crc32",
+    "version": "5.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:aws/aws-sdk-js-crypto-helpers.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/crc32",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/crc32/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-crypto/sha256-browser",
+    "version": "5.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:aws/aws-sdk-js-crypto-helpers.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-browser",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-browser/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-crypto/sha256-js",
+    "version": "5.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:aws/aws-sdk-js-crypto-helpers.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-js",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-js/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-crypto/supports-web-crypto",
+    "version": "5.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:aws/aws-sdk-js-crypto-helpers.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/supports-web-crypto",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/supports-web-crypto/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-crypto/util",
+    "version": "5.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:aws/aws-sdk-js-crypto-helpers.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/util",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/util/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/client-bedrock-runtime",
+    "version": "3.1048.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "clients/client-bedrock-runtime"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/client-bedrock-runtime",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/client-bedrock-runtime/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/core",
+    "version": "3.974.11",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/core"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/core",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/core/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-env",
+    "version": "3.972.37",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-env"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-env",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-env/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-http",
+    "version": "3.972.39",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-http"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-http",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-ini",
+    "version": "3.972.41",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-ini"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-ini",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-ini/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-login",
+    "version": "3.972.41",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-login"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-login",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-node",
+    "version": "3.972.42",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-node"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-node",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-node/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-process",
+    "version": "3.972.37",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-process"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-process",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-process/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-sso",
+    "version": "3.972.41",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-sso"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-sso",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-sso/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/credential-provider-web-identity",
+    "version": "3.972.41",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/credential-provider-web-identity"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-web-identity",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-web-identity/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/eventstream-handler-node",
+    "version": "3.972.16",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/eventstream-handler-node"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/eventstream-handler-node",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/eventstream-handler-node/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/middleware-eventstream",
+    "version": "3.972.12",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/middleware-eventstream"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-eventstream",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-eventstream/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/middleware-websocket",
+    "version": "3.972.19",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/middleware-websocket"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-websocket",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-websocket/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/nested-clients",
+    "version": "3.997.9",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages/nested-clients"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/nested-clients",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/signature-v4-multi-region",
+    "version": "3.996.27",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages/signature-v4-multi-region"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/signature-v4-multi-region",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/signature-v4-multi-region/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/token-providers",
+    "version": "3.1048.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages/token-providers"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/token-providers",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/token-providers/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/types",
+    "version": "3.973.8",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/types"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/types",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/types/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/util-locate-window",
+    "version": "3.965.5",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/util-locate-window"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/util-locate-window",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/util-locate-window/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@aws-sdk/xml-builder",
+    "version": "3.972.24",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aws/aws-sdk-js-v3.git",
+      "directory": "packages-internal/xml-builder"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/xml-builder",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/xml-builder/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@babel/runtime",
+    "version": "7.29.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel.git",
+      "directory": "packages/babel-runtime"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@babel/runtime",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@babel/runtime/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@earendil-works/chord",
+    "version": "0.85.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/earendil-works/pi.git",
+      "directory": "packages/chord"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@earendil-works/chord",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@earendil-works/pi-agent-core",
+    "version": "0.85.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/earendil-works/pi.git",
+      "directory": "packages/agent"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@earendil-works/pi-agent-core",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@earendil-works/pi-ai",
+    "version": "0.85.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/earendil-works/pi.git",
+      "directory": "packages/ai"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@earendil-works/pi-ai",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@earendil-works/pi-telemetry",
+    "version": "0.85.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/earendil-works/pi.git",
+      "directory": "packages/telemetry"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@earendil-works/pi-telemetry",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@earendil-works/pi-tui",
+    "version": "0.85.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/earendil-works/pi.git",
+      "directory": "packages/tui"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@earendil-works/pi-tui",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@esbuild/win32-x64",
+    "version": "0.28.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evanw/esbuild.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@esbuild/win32-x64",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@google/genai",
+    "version": "1.52.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/googleapis/js-genai.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@google/genai",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@google/genai/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@mariozechner/clipboard",
+    "version": "0.3.9",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/badlogic/clipboard.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@mariozechner/clipboard",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@mariozechner/clipboard-win32-x64-msvc",
+    "version": "0.3.9",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/badlogic/clipboard.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@mariozechner/clipboard-win32-x64-msvc",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@nodable/entities",
+    "version": "2.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nodable/val-parsers.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@nodable/entities",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/aspromise",
+    "version": "1.1.2",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/aspromise",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/aspromise/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/base64",
+    "version": "1.1.2",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/base64",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/base64/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/codegen",
+    "version": "2.0.5",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/codegen",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/codegen/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/eventemitter",
+    "version": "1.1.1",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/eventemitter",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/eventemitter/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/fetch",
+    "version": "1.1.1",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/fetch",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/fetch/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/float",
+    "version": "1.0.2",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/float",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/float/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/path",
+    "version": "1.1.2",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/path",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/path/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/pool",
+    "version": "1.1.0",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/pool",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/pool/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@protobufjs/utf8",
+    "version": "1.1.1",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/protobuf.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/utf8",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/utf8/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@silvia-odwyer/photon-node",
+    "version": "0.3.4",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/silvia-odwyer/photon"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@silvia-odwyer/photon-node",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@silvia-odwyer/photon-node/LICENSE.md"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/core",
+    "version": "3.24.3",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smithy-lang/smithy-typescript.git",
+      "directory": "packages/core"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/core",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/core/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/credential-provider-imds",
+    "version": "4.3.3",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smithy-lang/smithy-typescript.git",
+      "directory": "packages/credential-provider-imds"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/credential-provider-imds",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/credential-provider-imds/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/fetch-http-handler",
+    "version": "5.4.3",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smithy-lang/smithy-typescript.git",
+      "directory": "packages/fetch-http-handler"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/fetch-http-handler",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/fetch-http-handler/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/is-array-buffer",
+    "version": "2.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/awslabs/smithy-typescript.git",
+      "directory": "packages/is-array-buffer"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/is-array-buffer",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/is-array-buffer/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/node-http-handler",
+    "version": "4.7.3",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smithy-lang/smithy-typescript.git",
+      "directory": "packages/node-http-handler"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/node-http-handler",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/node-http-handler/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/signature-v4",
+    "version": "5.4.3",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smithy-lang/smithy-typescript.git",
+      "directory": "packages/signature-v4"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/signature-v4",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/signature-v4/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/types",
+    "version": "4.14.2",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smithy-lang/smithy-typescript.git",
+      "directory": "packages/types"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/types",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/types/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/util-buffer-from",
+    "version": "2.2.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/awslabs/smithy-typescript.git",
+      "directory": "packages/util-buffer-from"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-buffer-from",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-buffer-from/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@smithy/util-utf8",
+    "version": "2.3.0",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/awslabs/smithy-typescript.git",
+      "directory": "packages/util-utf8"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-utf8",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-utf8/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@stablelib/base64",
+    "version": "1.0.1",
+    "license": "MIT",
+    "repository": {
+      "url": "https://github.com/StableLib/stablelib"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@stablelib/base64",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@stablelib/base64/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@types/node",
+    "version": "22.19.19",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+      "directory": "types/node"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/@types/node",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@types/node/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "agent-base",
+    "version": "7.1.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TooTallNate/proxy-agents.git",
+      "directory": "packages/agent-base"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/agent-base",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/agent-base/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "balanced-match",
+    "version": "4.0.4",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/juliangruber/balanced-match.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/balanced-match",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/balanced-match/LICENSE.md"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "base64-js",
+    "version": "1.5.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/beatgammit/base64-js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/base64-js",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/base64-js/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "bignumber.js",
+    "version": "9.3.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MikeMcl/bignumber.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/bignumber.js",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "bowser",
+    "version": "2.14.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bowser-js/bowser.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/bowser",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/bowser/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "brace-expansion",
+    "version": "5.0.9",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/juliangruber/brace-expansion.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/brace-expansion",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/brace-expansion/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "buffer-equal-constant-time",
+    "version": "1.0.1",
+    "license": "BSD-3-Clause",
+    "repository": "git@github.com:goinstant/buffer-equal-constant-time.git",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/buffer-equal-constant-time",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/buffer-equal-constant-time/LICENSE.txt"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "chalk",
+    "version": "5.6.2",
+    "license": "MIT",
+    "repository": "chalk/chalk",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/chalk",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/chalk/license"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "cross-spawn",
+    "version": "7.0.6",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:moxystudio/node-cross-spawn.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/cross-spawn",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/cross-spawn/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "data-uri-to-buffer",
+    "version": "4.0.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/TooTallNate/node-data-uri-to-buffer.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/data-uri-to-buffer",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "debug",
+    "version": "4.4.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/debug-js/debug.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/debug",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/debug/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "diff",
+    "version": "8.0.4",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kpdecker/jsdiff.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/diff",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/diff/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "ecdsa-sig-formatter",
+    "version": "1.0.11",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://github.com/Brightspace/node-ecdsa-sig-formatter.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/ecdsa-sig-formatter",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ecdsa-sig-formatter/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified",
+    "metadataNormalization": "Removed non-secret repository userinfo from public upstream URL; license text unchanged."
+  },
+  {
+    "name": "esbuild",
+    "version": "0.28.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evanw/esbuild.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/esbuild",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/esbuild/LICENSE.md"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "extend",
+    "version": "3.0.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/justmoon/node-extend.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/extend",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/extend/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "fast-sha256",
+    "version": "1.3.0",
+    "license": "Unlicense",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dchest/fast-sha256-js"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/fast-sha256",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-sha256/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "fast-xml-builder",
+    "version": "1.2.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NaturalIntelligence/fast-xml-builder.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-builder",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-builder/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "fast-xml-parser",
+    "version": "5.7.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NaturalIntelligence/fast-xml-parser.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-parser",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-parser/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "fetch-blob",
+    "version": "3.2.0",
+    "license": "MIT",
+    "repository": "https://github.com/node-fetch/fetch-blob.git",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/fetch-blob",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fetch-blob/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "formdata-polyfill",
+    "version": "4.0.10",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jimmywarting/FormData.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/formdata-polyfill",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/formdata-polyfill/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified",
+    "metadataNormalization": "Removed non-secret repository userinfo from public upstream URL; license text unchanged."
+  },
+  {
+    "name": "gaxios",
+    "version": "7.1.4",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "directory": "packages/gaxios",
+      "url": "https://github.com/googleapis/google-cloud-node-core.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/gaxios",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gaxios/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "gcp-metadata",
+    "version": "8.1.2",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "directory": "packages/gcp-metadata",
+      "url": "https://github.com/googleapis/google-cloud-node-core.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/gcp-metadata",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gcp-metadata/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "get-east-asian-width",
+    "version": "1.6.0",
+    "license": "MIT",
+    "repository": "sindresorhus/get-east-asian-width",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/get-east-asian-width",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/get-east-asian-width/license"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "google-auth-library",
+    "version": "10.6.2",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "directory": "packages/google-auth-library-nodejs",
+      "url": "https://github.com/googleapis/google-cloud-node-core.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/google-auth-library",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-auth-library/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "google-logging-utils",
+    "version": "1.1.3",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "directory": "dev-packages/logging-utils",
+      "url": "https://github.com/googleapis/google-cloud-node-core.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/google-logging-utils",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-logging-utils/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "graceful-fs",
+    "version": "4.2.11",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/isaacs/node-graceful-fs"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/graceful-fs",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/graceful-fs/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "grok-mermaid",
+    "version": "0.2.2",
+    "license": "Apache-2.0",
+    "repository": "github:xl0/grok-mermaid",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/grok-mermaid",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/grok-mermaid/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "highlight.js",
+    "version": "10.7.3",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/highlightjs/highlight.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/highlight.js",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/highlight.js/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "hosted-git-info",
+    "version": "9.0.3",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/npm/hosted-git-info.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/hosted-git-info",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/hosted-git-info/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "http-proxy-agent",
+    "version": "7.0.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TooTallNate/proxy-agents.git",
+      "directory": "packages/http-proxy-agent"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/http-proxy-agent",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/http-proxy-agent/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "https-proxy-agent",
+    "version": "7.0.6",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TooTallNate/proxy-agents.git",
+      "directory": "packages/https-proxy-agent"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/https-proxy-agent",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/https-proxy-agent/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "ignore",
+    "version": "7.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:kaelzhang/node-ignore.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/ignore",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ignore/LICENSE-MIT"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "isexe",
+    "version": "2.0.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/isaacs/isexe.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/isexe",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/isexe/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "jiti",
+    "version": "2.7.0",
+    "license": "MIT",
+    "repository": "unjs/jiti",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/jiti",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jiti/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "json-bigint",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sidorares/json-bigint.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/json-bigint",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-bigint/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "json-schema-to-ts",
+    "version": "3.1.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ThomasAribart/json-schema-to-ts.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/json-schema-to-ts",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-schema-to-ts/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "jwa",
+    "version": "2.0.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianloveswords/node-jwa.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/jwa",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jwa/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "jws",
+    "version": "4.0.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/brianloveswords/node-jws.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/jws",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jws/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "long",
+    "version": "5.3.2",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dcodeIO/long.js.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/long",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/long/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "lru-cache",
+    "version": "11.4.0",
+    "license": "BlueOak-1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://github.com/isaacs/node-lru-cache.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/lru-cache",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/lru-cache/LICENSE.md"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified",
+    "metadataNormalization": "Removed non-secret repository userinfo from public upstream URL; license text unchanged."
+  },
+  {
+    "name": "marked",
+    "version": "18.0.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/markedjs/marked.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/marked",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/marked/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "minimatch",
+    "version": "10.2.5",
+    "license": "BlueOak-1.0.0",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:isaacs/minimatch"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/minimatch",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/minimatch/LICENSE.md"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "ms",
+    "version": "2.1.3",
+    "license": "MIT",
+    "repository": "vercel/ms",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/ms",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ms/license.md"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "node-domexception",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jimmywarting/node-domexception.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/node-domexception",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-domexception/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "node-fetch",
+    "version": "3.3.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/node-fetch/node-fetch.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/node-fetch",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-fetch/LICENSE.md"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "openai",
+    "version": "6.40.0",
+    "license": "Apache-2.0",
+    "repository": "github:openai/openai-node",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/openai",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/openai/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@types/retry",
+    "version": "0.12.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/node_modules/@types/retry",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/node_modules/@types/retry/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "p-retry",
+    "version": "4.6.2",
+    "license": "MIT",
+    "repository": "sindresorhus/p-retry",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/license"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "partial-json",
+    "version": "0.1.7",
+    "license": "MIT",
+    "repository": "https://github.com/promplate/partial-json-parser-js",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/partial-json",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/partial-json/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "path-expression-matcher",
+    "version": "1.5.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/NaturalIntelligence/path-expression-matcher"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/path-expression-matcher",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-expression-matcher/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "path-key",
+    "version": "3.1.1",
+    "license": "MIT",
+    "repository": "sindresorhus/path-key",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/path-key",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-key/license"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "retry",
+    "version": "0.12.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/tim-kos/node-retry.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/node_modules/retry",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/node_modules/retry/License"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "proper-lockfile",
+    "version": "4.1.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:moxystudio/node-proper-lockfile.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "protobufjs",
+    "version": "7.6.5",
+    "license": "BSD-3-Clause",
+    "repository": "protobufjs/protobuf.js",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/protobufjs",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/protobufjs/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "retry",
+    "version": "0.13.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/tim-kos/node-retry.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/retry",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/retry/License"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "safe-buffer",
+    "version": "5.2.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/safe-buffer.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/safe-buffer",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/safe-buffer/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "semver",
+    "version": "7.8.0",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/npm/node-semver.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/semver",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/semver/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "shebang-command",
+    "version": "2.0.0",
+    "license": "MIT",
+    "repository": "kevva/shebang-command",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-command",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-command/license"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "shebang-regex",
+    "version": "3.0.0",
+    "license": "MIT",
+    "repository": "sindresorhus/shebang-regex",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-regex",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-regex/license"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "signal-exit",
+    "version": "3.0.7",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tapjs/signal-exit.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/signal-exit",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/signal-exit/LICENSE.txt"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "standardwebhooks",
+    "version": "1.1.1",
+    "license": "MIT",
+    "repository": "https://github.com/standard-webhooks/standard-webhooks",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/standardwebhooks",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "strnum",
+    "version": "2.3.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/NaturalIntelligence/strnum"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/strnum",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/strnum/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "ts-algebra",
+    "version": "2.0.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ThomasAribart/ts-algebra.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/ts-algebra",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ts-algebra/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "tslib",
+    "version": "2.8.1",
+    "license": "0BSD",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Microsoft/tslib.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/tslib",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/tslib/LICENSE.txt"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "typebox",
+    "version": "1.3.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sinclairzx81/typebox"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/typebox",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/typebox/license"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "undici",
+    "version": "8.9.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nodejs/undici.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/undici",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "undici-types",
+    "version": "6.21.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nodejs/undici.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/undici-types",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici-types/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "web-streams-polyfill",
+    "version": "3.3.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MattiasBuelens/web-streams-polyfill.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/web-streams-polyfill",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/web-streams-polyfill/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "which",
+    "version": "2.0.2",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/isaacs/node-which.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/which",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/which/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "ws",
+    "version": "8.21.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/websockets/ws.git"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/ws",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ws/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "xml-naming",
+    "version": "0.1.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/NaturalIntelligence/xml-naming"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/xml-naming",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "yaml",
+    "version": "2.9.0",
+    "license": "ISC",
+    "repository": "github:eemeli/yaml",
+    "path": "node_modules/@earendil-works/pi-coding-agent/node_modules/yaml",
+    "notices": [
+      "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/yaml/LICENSE"
+    ],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  },
+  {
+    "name": "@earendil-works/pi-coding-agent",
+    "version": "0.85.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/earendil-works/pi.git",
+      "directory": "packages/coding-agent"
+    },
+    "path": "node_modules/@earendil-works/pi-coding-agent",
+    "notices": [],
+    "status": "observed locally; upstream integrity and completeness not verified"
+  }
+]

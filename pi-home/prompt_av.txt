@@ -1,0 +1,18 @@
+﻿请对本机做一次【多媒体教室 / 投影专项检修】（以只读检查为主）。
+
+1. 只读体检采集：`powershell -NoProfile -ExecutionPolicy Bypass -File core\ps\collect.ps1 -Fast`（作为基础信息）；
+2. 再用 powershell 只读检查以下内容（可用 Get-PnpDevice / Get-CimInstance 等）：
+   - 显示适配器与显卡驱动状态、有无错误码；`Get-CimInstance Win32_VideoController`
+   - 显示器与多屏拓扑、分辨率/刷新率；`Get-CimInstance Win32_DesktopMonitor`、`Get-PnpDevice -Class Monitor`
+   - HDMI/DP 等显示输出的连接状态（接了几个屏、哪个是主屏）；
+   - 音频输出设备与默认设备；`Get-PnpDevice -Class AudioEndpoint`
+3. 给出：投影无信号/双屏错乱/音响无声的可能原因排序（分辨率与刷新率不匹配、输出源选错、线缆/接口、显卡驱动、音频默认设备被改），以及**具体操作步骤**（如 Win+P 切换投影模式、设置主显示器、设置默认播放设备、重装显卡/声卡驱动）；
+4. 本场景以只读检查 + 操作指引为主；需要改动显示/音频设置时，先说明再动手。
+
+【收尾要求（生成工单）】
+处理完成后，请先在对话里问我这四项，然后带参数运行工单脚本（不要运行不带参数的版本：pi 的工具是非交互环境，会卡在输入环节）：
+  · 工单名称（如"3号教学楼402打印机"，可留空）
+  · 位置、报修人、处理人
+执行（把占位内容换成我问到的信息）：
+  powershell -NoProfile -ExecutionPolicy Bypass -File core\ps\ticket.ps1 -Quiet -TicketName "<名称>" -Location "<位置>" -Reporter "<报修人>" -Handler "<处理人>"
+运行后把"工单已保存: <路径>"告诉我，并简述工单要点。

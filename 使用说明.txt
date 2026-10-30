@@ -1,0 +1,7 @@
+﻿Pi Agent 0.1.0-rc1 开源候选版
+
+入口：start.bat（普通权限），维修需使用者自行选择管理员运行。
+本地诊断不需要 API；AI/私人远程归档需要自己的账户。
+这是源码候选版，大型运行时未附带。
+请阅读 README.md、docs/USAGE.md、docs/DEPENDENCIES.md。
+已知维修安全问题详见 docs/SECURITY-REVIEW.md；不能视为正式安全发布版。

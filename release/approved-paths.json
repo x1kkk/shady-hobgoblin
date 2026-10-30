@@ -1,0 +1,785 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "source": ".gitattributes",
+      "destination": ".gitattributes"
+    },
+    {
+      "source": ".gitignore",
+      "destination": ".gitignore"
+    },
+    {
+      "source": "ai/analyze.bat",
+      "destination": "ai/analyze.bat"
+    },
+    {
+      "source": "ai/analyze.vbs",
+      "destination": "ai/analyze.vbs"
+    },
+    {
+      "source": "ai/ask_deepseek.vbs",
+      "destination": "ai/ask_deepseek.vbs"
+    },
+    {
+      "source": "ai/prompt.txt",
+      "destination": "ai/prompt.txt"
+    },
+    {
+      "source": "archive.example.json",
+      "destination": "archive.example.json"
+    },
+    {
+      "source": "config.example.ini",
+      "destination": "config.example.ini"
+    },
+    {
+      "source": "core/legacy/collect.bat",
+      "destination": "core/legacy/collect.bat"
+    },
+    {
+      "source": "core/legacy/collect.vbs",
+      "destination": "core/legacy/collect.vbs"
+    },
+    {
+      "source": "core/legacy/legacy_menu.bat",
+      "destination": "core/legacy/legacy_menu.bat"
+    },
+    {
+      "source": "core/ps/collect.ps1",
+      "destination": "core/ps/collect.ps1"
+    },
+    {
+      "source": "core/ps/fix.ps1",
+      "destination": "core/ps/fix.ps1"
+    },
+    {
+      "source": "core/ps/ticket.ps1",
+      "destination": "core/ps/ticket.ps1"
+    },
+    {
+      "source": "docs/DEPENDENCIES.md",
+      "destination": "docs/DEPENDENCIES.md"
+    },
+    {
+      "source": "docs/RELEASE.md",
+      "destination": "docs/RELEASE.md"
+    },
+    {
+      "source": "docs/SECURITY-REVIEW.md",
+      "destination": "docs/SECURITY-REVIEW.md"
+    },
+    {
+      "source": "docs/USAGE.md",
+      "destination": "docs/USAGE.md"
+    },
+    {
+      "source": "docs/VALIDATION.md",
+      "destination": "docs/VALIDATION.md"
+    },
+    {
+      "source": "make_usb.bat",
+      "destination": "make_usb.bat"
+    },
+    {
+      "source": "make_usb.ps1",
+      "destination": "make_usb.ps1"
+    },
+    {
+      "source": "menu/intro.ps1",
+      "destination": "menu/intro.ps1"
+    },
+    {
+      "source": "menu/main_menu.ps1",
+      "destination": "menu/main_menu.ps1"
+    },
+    {
+      "source": "menu/msg.ps1",
+      "destination": "menu/msg.ps1"
+    },
+    {
+      "source": "menu/pi_menu.ps1",
+      "destination": "menu/pi_menu.ps1"
+    },
+    {
+      "source": "pi-home/agent/AGENTS.md",
+      "destination": "pi-home/agent/AGENTS.md"
+    },
+    {
+      "source": "pi-home/agent/auth.example.json",
+      "destination": "pi-home/agent/auth.example.json"
+    },
+    {
+      "source": "pi-home/agent/extensions/repair-guard.ts",
+      "destination": "pi-home/agent/extensions/repair-guard.ts"
+    },
+    {
+      "source": "pi-home/agent/models.example.json",
+      "destination": "pi-home/agent/models.example.json"
+    },
+    {
+      "source": "pi-home/agent/prompts/出工单.md",
+      "destination": "pi-home/agent/prompts/出工单.md"
+    },
+    {
+      "source": "pi-home/agent/prompts/快检.md",
+      "destination": "pi-home/agent/prompts/快检.md"
+    },
+    {
+      "source": "pi-home/agent/prompts/打印机.md",
+      "destination": "pi-home/agent/prompts/打印机.md"
+    },
+    {
+      "source": "pi-home/agent/prompts/校园网.md",
+      "destination": "pi-home/agent/prompts/校园网.md"
+    },
+    {
+      "source": "pi-home/agent/skills/campus-network/SKILL.md",
+      "destination": "pi-home/agent/skills/campus-network/SKILL.md"
+    },
+    {
+      "source": "pi-home/agent/skills/pc-repair/SKILL.md",
+      "destination": "pi-home/agent/skills/pc-repair/SKILL.md"
+    },
+    {
+      "source": "pi-home/agent/skills/printer-share/SKILL.md",
+      "destination": "pi-home/agent/skills/printer-share/SKILL.md"
+    },
+    {
+      "source": "pi-home/analyze_prompt.txt",
+      "destination": "pi-home/analyze_prompt.txt"
+    },
+    {
+      "source": "pi-home/auto_check.txt",
+      "destination": "pi-home/auto_check.txt"
+    },
+    {
+      "source": "pi-home/prompt_av.txt",
+      "destination": "pi-home/prompt_av.txt"
+    },
+    {
+      "source": "pi-home/prompt_disk.txt",
+      "destination": "pi-home/prompt_disk.txt"
+    },
+    {
+      "source": "pi-home/prompt_net.txt",
+      "destination": "pi-home/prompt_net.txt"
+    },
+    {
+      "source": "pi-home/prompt_print.txt",
+      "destination": "pi-home/prompt_print.txt"
+    },
+    {
+      "source": "pi-home/prompt_sec.txt",
+      "destination": "pi-home/prompt_sec.txt"
+    },
+    {
+      "source": "pi-home/prompt_sys.txt",
+      "destination": "pi-home/prompt_sys.txt"
+    },
+    {
+      "source": "pi-home/start_prompt.txt",
+      "destination": "pi-home/start_prompt.txt"
+    },
+    {
+      "source": "README.md",
+      "destination": "README.md"
+    },
+    {
+      "source": "release/check-syntax.ps1",
+      "destination": "release/check-syntax.ps1"
+    },
+    {
+      "source": "release/create_manifest.py",
+      "destination": "release/create_manifest.py"
+    },
+    {
+      "source": "release/defaults/config.ini",
+      "destination": "release/defaults/config.ini"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/auth.json",
+      "destination": "release/defaults/pi-home/agent/auth.json"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/settings.json",
+      "destination": "release/defaults/pi-home/agent/settings.json"
+    },
+    {
+      "source": "release/policy.ps1",
+      "destination": "release/policy.ps1"
+    },
+    {
+      "source": "release/verify.py",
+      "destination": "release/verify.py"
+    },
+    {
+      "source": "runtime/pi/pi.cmd",
+      "destination": "runtime/pi/pi.cmd"
+    },
+    {
+      "source": "start.bat",
+      "destination": "start.bat"
+    },
+    {
+      "source": "start_pi.bat",
+      "destination": "start_pi.bat"
+    },
+    {
+      "source": "tests/packaging.ps1",
+      "destination": "tests/packaging.ps1"
+    },
+    {
+      "source": "tests/test_release_scan.py",
+      "destination": "tests/test_release_scan.py"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@anthropic-ai/sdk/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@anthropic-ai/sdk/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws/lambda-invoke-store/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws/lambda-invoke-store/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/crc32/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/crc32/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-browser/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-browser/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-js/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-js/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/supports-web-crypto/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/supports-web-crypto/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/util/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/util/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/client-bedrock-runtime/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/client-bedrock-runtime/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/core/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/core/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-env/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-env/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-ini/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-ini/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-node/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-node/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-process/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-process/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-sso/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-sso/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-web-identity/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-web-identity/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/eventstream-handler-node/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/eventstream-handler-node/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-eventstream/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-eventstream/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-websocket/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-websocket/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/signature-v4-multi-region/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/signature-v4-multi-region/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/token-providers/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/token-providers/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/types/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/types/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/util-locate-window/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/util-locate-window/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/xml-builder/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/xml-builder/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@babel/runtime/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@babel/runtime/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@google/genai/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@google/genai/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/aspromise/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/aspromise/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/base64/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/base64/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/codegen/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/codegen/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/eventemitter/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/eventemitter/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/fetch/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/fetch/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/float/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/float/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/path/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/path/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/pool/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/pool/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/utf8/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/utf8/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@silvia-odwyer/photon-node/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@silvia-odwyer/photon-node/LICENSE.md"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/core/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/core/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/credential-provider-imds/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/credential-provider-imds/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/fetch-http-handler/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/fetch-http-handler/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/is-array-buffer/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/is-array-buffer/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/node-http-handler/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/node-http-handler/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/signature-v4/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/signature-v4/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/types/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/types/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-buffer-from/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-buffer-from/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-utf8/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-utf8/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@stablelib/base64/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@stablelib/base64/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@types/node/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@types/node/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/agent-base/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/agent-base/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/balanced-match/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/balanced-match/LICENSE.md"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/base64-js/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/base64-js/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/bowser/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/bowser/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/brace-expansion/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/brace-expansion/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/buffer-equal-constant-time/LICENSE.txt",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/buffer-equal-constant-time/LICENSE.txt"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/chalk/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/chalk/license"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/cross-spawn/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/cross-spawn/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/debug/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/debug/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/diff/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/diff/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ecdsa-sig-formatter/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ecdsa-sig-formatter/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/esbuild/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/esbuild/LICENSE.md"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/extend/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/extend/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-sha256/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-sha256/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-builder/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-builder/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-parser/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-parser/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fetch-blob/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fetch-blob/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/formdata-polyfill/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/formdata-polyfill/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gaxios/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gaxios/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gcp-metadata/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gcp-metadata/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/get-east-asian-width/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/get-east-asian-width/license"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-auth-library/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-auth-library/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-logging-utils/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-logging-utils/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/graceful-fs/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/graceful-fs/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/grok-mermaid/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/grok-mermaid/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/highlight.js/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/highlight.js/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/hosted-git-info/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/hosted-git-info/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/http-proxy-agent/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/http-proxy-agent/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/https-proxy-agent/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/https-proxy-agent/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ignore/LICENSE-MIT",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ignore/LICENSE-MIT"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/isexe/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/isexe/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jiti/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jiti/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-bigint/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-bigint/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-schema-to-ts/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-schema-to-ts/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jwa/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jwa/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jws/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jws/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/long/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/long/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/lru-cache/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/lru-cache/LICENSE.md"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/marked/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/marked/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/minimatch/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/minimatch/LICENSE.md"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ms/license.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ms/license.md"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-domexception/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-domexception/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-fetch/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-fetch/LICENSE.md"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/openai/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/openai/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/license"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/node_modules/@types/retry/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/node_modules/@types/retry/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/partial-json/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/partial-json/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-expression-matcher/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-expression-matcher/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-key/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-key/license"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/node_modules/retry/License",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/node_modules/retry/License"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/protobufjs/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/protobufjs/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/retry/License",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/retry/License"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/safe-buffer/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/safe-buffer/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/semver/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/semver/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-command/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-command/license"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-regex/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-regex/license"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/signal-exit/LICENSE.txt",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/signal-exit/LICENSE.txt"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/strnum/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/strnum/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ts-algebra/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ts-algebra/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/tslib/LICENSE.txt",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/tslib/LICENSE.txt"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/typebox/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/typebox/license"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici-types/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici-types/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/web-streams-polyfill/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/web-streams-polyfill/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/which/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/which/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ws/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ws/LICENSE"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/yaml/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/yaml/LICENSE"
+    },
+    {
+      "source": "third-party/observed-packages.json",
+      "destination": "third-party/observed-packages.json"
+    },
+    {
+      "source": "third-party/observed-tools.json",
+      "destination": "third-party/observed-tools.json"
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "destination": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "source": "tools/archive_records.ps1",
+      "destination": "tools/archive_records.ps1"
+    },
+    {
+      "source": "tools/fix_usb.bat",
+      "destination": "tools/fix_usb.bat"
+    },
+    {
+      "source": "tools/fix_usb.ps1",
+      "destination": "tools/fix_usb.ps1"
+    },
+    {
+      "source": "tools/menu-elevate.vbs",
+      "destination": "tools/menu-elevate.vbs"
+    },
+    {
+      "source": "tools/menu-launch.cmd",
+      "destination": "tools/menu-launch.cmd"
+    },
+    {
+      "source": "tools/setup_archive.ps1",
+      "destination": "tools/setup_archive.ps1"
+    },
+    {
+      "source": "tools/start_menu.bat",
+      "destination": "tools/start_menu.bat"
+    },
+    {
+      "source": "tools/sync_from_usb.ps1",
+      "destination": "tools/sync_from_usb.ps1"
+    },
+    {
+      "source": "tools/使用说明.txt",
+      "destination": "tools/使用说明.txt"
+    },
+    {
+      "source": "tools/启动维修助手.bat",
+      "destination": "tools/启动维修助手.bat"
+    },
+    {
+      "source": "使用说明.txt",
+      "destination": "使用说明.txt"
+    },
+    {
+      "source": "release/approved-paths.json",
+      "destination": "release/approved-paths.json"
+    },
+    {
+      "source": "release/defaults/config.ini",
+      "destination": "config.ini"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/auth.json",
+      "destination": "pi-home/agent/auth.json"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/settings.json",
+      "destination": "pi-home/agent/settings.json"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE"
+    },
+    {
+      "source": "PRIVACY.md",
+      "destination": "PRIVACY.md"
+    },
+    {
+      "source": "SIGNING_POLICY.md",
+      "destination": "SIGNING_POLICY.md"
+    },
+    {
+      "source": "docs/LICENSING.md",
+      "destination": "docs/LICENSING.md"
+    },
+    {
+      "source": "docs/SIGNPATH-APPLICATION.md",
+      "destination": "docs/SIGNPATH-APPLICATION.md"
+    }
+  ]
+}

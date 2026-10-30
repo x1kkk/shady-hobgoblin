@@ -1,0 +1,9 @@
+﻿请使用 pc-repair 技能：先对这台电脑做一次快速体检（只读操作），阅读 reports\ 下最新的 diagnosis.txt 与 findings.ini，给出中文诊断结论与修复建议，并把结论保存为同目录的 ai_analysis.txt（UTF-8 编码）。不要执行任何修复操作，等我的指示。
+
+【收尾要求（生成工单）】
+处理完成后，请先在对话里问我这四项，然后带参数运行工单脚本（不要运行不带参数的版本：pi 的工具是非交互环境，会卡在输入环节）：
+  · 工单名称（如"3号教学楼402打印机"，可留空）
+  · 位置、报修人、处理人
+执行（把占位内容换成我问到的信息）：
+  powershell -NoProfile -ExecutionPolicy Bypass -File core\ps\ticket.ps1 -Quiet -TicketName "<名称>" -Location "<位置>" -Reporter "<报修人>" -Handler "<处理人>"
+运行后把"工单已保存: <路径>"告诉我，并简述工单要点。

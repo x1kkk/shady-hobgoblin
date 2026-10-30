@@ -1,0 +1,17 @@
+# Preserve intentional GBK batch/VBS and UTF-8 BOM PowerShell bytes and manifest hashes.
+* -text
+/config.ini export-ignore
+/pi-home/agent/auth.json export-ignore
+/pi-home/agent/settings.json export-ignore
+/pi-home/agent/models.json export-ignore
+/pi-home/agent/models-store.json export-ignore
+/pi-home/agent/trust.json export-ignore
+/archive.local.json export-ignore
+/dist export-ignore
+/test-output export-ignore
+/logs export-ignore
+/reports export-ignore
+/backups export-ignore
+/downloads export-ignore
+/pi-home/agent/sessions export-ignore
+/PRIVATE-DO-NOT-PUBLISH.txt export-ignore

@@ -1,0 +1,981 @@
+{
+  "format": 1,
+  "release": "0.1.0-rc1",
+  "files": [
+    {
+      "source": ".gitattributes",
+      "destination": ".gitattributes",
+      "sha256": "8a2391550ee65b6c0c1c63fe7f3639b704a60a497cb9a179785d7b2422d8eecb"
+    },
+    {
+      "source": ".gitignore",
+      "destination": ".gitignore",
+      "sha256": "2f6316966e2c89d34c1e247006fffad8211ae2771873c2f24335f5346899c13a"
+    },
+    {
+      "source": "ai/analyze.bat",
+      "destination": "ai/analyze.bat",
+      "sha256": "bbec1ec712687524c3674e369015a18c0e60185ce70b132709535c2cadaddf6f"
+    },
+    {
+      "source": "ai/analyze.vbs",
+      "destination": "ai/analyze.vbs",
+      "sha256": "9d3c14a1ad05b4c0cf83903c656e3de041328fa842664c05a91d253dd2d9f6e0"
+    },
+    {
+      "source": "ai/ask_deepseek.vbs",
+      "destination": "ai/ask_deepseek.vbs",
+      "sha256": "a164fe7c5a0d1591f3b4c642bda8a3bba1dc811f2f47977a66b8c66f3fad5d5b"
+    },
+    {
+      "source": "ai/prompt.txt",
+      "destination": "ai/prompt.txt",
+      "sha256": "9c2ac3726a726e620a4ca614a817501ae11d63f9cd6b9b98d95ac08deb3b94fd"
+    },
+    {
+      "source": "archive.example.json",
+      "destination": "archive.example.json",
+      "sha256": "4cda2ea3e25755a50aa6498e4e40c32652827abdbdbb6baa6a18cf672c8dc17a"
+    },
+    {
+      "source": "config.example.ini",
+      "destination": "config.example.ini",
+      "sha256": "cc4c569100cd9fec6c1e53335f9df831e47d1a35f870321fdd0925bfce900ffb"
+    },
+    {
+      "source": "core/legacy/collect.bat",
+      "destination": "core/legacy/collect.bat",
+      "sha256": "7abd5c3535a2ea092602b53595ea7b130f9f2935d63ecd5f8de21d3509e1978f"
+    },
+    {
+      "source": "core/legacy/collect.vbs",
+      "destination": "core/legacy/collect.vbs",
+      "sha256": "cdf7c198e50cdb7717f42c0bdd56f3d2f8632250d608a528e15a2bc77e512f75"
+    },
+    {
+      "source": "core/legacy/legacy_menu.bat",
+      "destination": "core/legacy/legacy_menu.bat",
+      "sha256": "877b4604f0b94515180415b54d20e888b40eeb3ba55938543d819e1cd5c13cd1"
+    },
+    {
+      "source": "core/ps/collect.ps1",
+      "destination": "core/ps/collect.ps1",
+      "sha256": "7307c2bb4f92472f92d0cab7affed4d8081add9ea6cb737b6e70179e8c5854e2"
+    },
+    {
+      "source": "core/ps/fix.ps1",
+      "destination": "core/ps/fix.ps1",
+      "sha256": "a5267e205b783f766ac77c06c63c9d9b5afb61f705d4479cd42a1e0765061985"
+    },
+    {
+      "source": "core/ps/ticket.ps1",
+      "destination": "core/ps/ticket.ps1",
+      "sha256": "96a80f2ffb41db46831924b143ca813616981a93f7789c0510823852e4093109"
+    },
+    {
+      "source": "docs/DEPENDENCIES.md",
+      "destination": "docs/DEPENDENCIES.md",
+      "sha256": "a0d4ca52f6fee6fc4242438400dd386c2dbeb845aa0f6d8320fd79aaafc8f929"
+    },
+    {
+      "source": "docs/RELEASE.md",
+      "destination": "docs/RELEASE.md",
+      "sha256": "aa57f6d0555f2f5cbd69056ee058fc581fd04480b8e2ca6be5b8437078adc0c0"
+    },
+    {
+      "source": "docs/SECURITY-REVIEW.md",
+      "destination": "docs/SECURITY-REVIEW.md",
+      "sha256": "375a7e8aad67884b658b16352ed10d9d39a03a264b654208c45783d3496f5f94"
+    },
+    {
+      "source": "docs/USAGE.md",
+      "destination": "docs/USAGE.md",
+      "sha256": "80eac76d4132ab04f005f3faf2a07dd2ce225627d850eebf46edd57d5a81f452"
+    },
+    {
+      "source": "docs/VALIDATION.md",
+      "destination": "docs/VALIDATION.md",
+      "sha256": "8bb06e75956ac32b30a2373e64c2a6bf56283322b378e6dc6297a6f79c7f00cf"
+    },
+    {
+      "source": "make_usb.bat",
+      "destination": "make_usb.bat",
+      "sha256": "de2625a4da5b50e412c351e04d0ed53ea8a874f60f4366c80784d02813051bb3"
+    },
+    {
+      "source": "make_usb.ps1",
+      "destination": "make_usb.ps1",
+      "sha256": "bbee8f1f5603972b3f4f0a1974ee1f4c1c150cfd905bf53ac68e2f4fe1929a99"
+    },
+    {
+      "source": "menu/intro.ps1",
+      "destination": "menu/intro.ps1",
+      "sha256": "86769cfcee9ae993a63bbfe59aa6ac236cbc0f42f752908051951397786c52e1"
+    },
+    {
+      "source": "menu/main_menu.ps1",
+      "destination": "menu/main_menu.ps1",
+      "sha256": "428be810608101f303bd9c052031397eb9134773a17b3e7518787dcc8f77b6b2"
+    },
+    {
+      "source": "menu/msg.ps1",
+      "destination": "menu/msg.ps1",
+      "sha256": "937ae2087a7576e19767d798c7ab357a3294270ee52c7a64b27b74c7760946b1"
+    },
+    {
+      "source": "menu/pi_menu.ps1",
+      "destination": "menu/pi_menu.ps1",
+      "sha256": "b4ffda7e599ee27cc9bf2ea78383597bfe50455719f3ce4b0afa5b4bae02e4d5"
+    },
+    {
+      "source": "pi-home/agent/AGENTS.md",
+      "destination": "pi-home/agent/AGENTS.md",
+      "sha256": "01d178f8fdbbdb4e53adf6101b4814ce6cf0c56d51da7fce528af73fc9d07822"
+    },
+    {
+      "source": "pi-home/agent/auth.example.json",
+      "destination": "pi-home/agent/auth.example.json",
+      "sha256": "230fce708d8ccda20b2f9f0eb80be7892ed4a93f9d0cb1018d159d188f675bfa"
+    },
+    {
+      "source": "pi-home/agent/extensions/repair-guard.ts",
+      "destination": "pi-home/agent/extensions/repair-guard.ts",
+      "sha256": "4538f737048ba99d10ac08ee2459c097d81a19db39422c8405f6044477404477"
+    },
+    {
+      "source": "pi-home/agent/models.example.json",
+      "destination": "pi-home/agent/models.example.json",
+      "sha256": "480663c6a4ad57cb50038ccf4632d44faccce9ce546a558f65c654858d4f74ed"
+    },
+    {
+      "source": "pi-home/agent/prompts/出工单.md",
+      "destination": "pi-home/agent/prompts/出工单.md",
+      "sha256": "c866435144d125ef152f2d64fb72f7952e8a0d02eaaf398f60bd3c7263e5a14d"
+    },
+    {
+      "source": "pi-home/agent/prompts/快检.md",
+      "destination": "pi-home/agent/prompts/快检.md",
+      "sha256": "d02d6f51ac39943a6703702855d733716097ebadc55754cd1b29e13776db7202"
+    },
+    {
+      "source": "pi-home/agent/prompts/打印机.md",
+      "destination": "pi-home/agent/prompts/打印机.md",
+      "sha256": "ca3cbf91f0e5783fec3b32b268ee93bcac2bf5f01606d96bef275c4286429ef8"
+    },
+    {
+      "source": "pi-home/agent/prompts/校园网.md",
+      "destination": "pi-home/agent/prompts/校园网.md",
+      "sha256": "9a1eb1a520e5fc83c8d5baf24d9886553d204a3bf81b206f340dc029d9461856"
+    },
+    {
+      "source": "pi-home/agent/skills/campus-network/SKILL.md",
+      "destination": "pi-home/agent/skills/campus-network/SKILL.md",
+      "sha256": "ed55c28267ddc0d539b6c2f59c40979faaef0c276616652d7559005cd78bb25d"
+    },
+    {
+      "source": "pi-home/agent/skills/pc-repair/SKILL.md",
+      "destination": "pi-home/agent/skills/pc-repair/SKILL.md",
+      "sha256": "cceb43bfafb5f3375b8c17bf150df3d57b0ef2ca09e0261fade26b6f50d48fde"
+    },
+    {
+      "source": "pi-home/agent/skills/printer-share/SKILL.md",
+      "destination": "pi-home/agent/skills/printer-share/SKILL.md",
+      "sha256": "77ed8bc847d27ef45690df041ce2f7d872ee0f88241451e0a73d95fe150bc4e7"
+    },
+    {
+      "source": "pi-home/analyze_prompt.txt",
+      "destination": "pi-home/analyze_prompt.txt",
+      "sha256": "b59e25a87d2a41d2e8b46c3915825d5b73a3fc0d7d2e670509855c0a29cc6c4b"
+    },
+    {
+      "source": "pi-home/auto_check.txt",
+      "destination": "pi-home/auto_check.txt",
+      "sha256": "89af40a74f8851b51b9cbc75e264715e109874a3003b628a1d9da94f8fe97cb1"
+    },
+    {
+      "source": "pi-home/prompt_av.txt",
+      "destination": "pi-home/prompt_av.txt",
+      "sha256": "d0e520f3270158919cc48c5ae558be1895cff1189e6bea82445ac3d525f7f865"
+    },
+    {
+      "source": "pi-home/prompt_disk.txt",
+      "destination": "pi-home/prompt_disk.txt",
+      "sha256": "73cfa45fdf46f37ac329fffb2fde07233d73dbecfe1a3c61cef8afc5eec89b61"
+    },
+    {
+      "source": "pi-home/prompt_net.txt",
+      "destination": "pi-home/prompt_net.txt",
+      "sha256": "e8e130982d1e80badd354749c33e67ba3cc51a4e1ef7947f46f0f82938ade28a"
+    },
+    {
+      "source": "pi-home/prompt_print.txt",
+      "destination": "pi-home/prompt_print.txt",
+      "sha256": "ebc6896b3f557850f64cad5b14ab51c2c3c462950e5e9639c996ff6bd6c24062"
+    },
+    {
+      "source": "pi-home/prompt_sec.txt",
+      "destination": "pi-home/prompt_sec.txt",
+      "sha256": "1ddd417a152b2e8b5d3f56dd9f110d30fa22559c93f761890c0677d88dc1e972"
+    },
+    {
+      "source": "pi-home/prompt_sys.txt",
+      "destination": "pi-home/prompt_sys.txt",
+      "sha256": "96dd485e77dc09ad2c3baa7fa4db3f662e86f93b839d97034e078f0d17fb9fbb"
+    },
+    {
+      "source": "pi-home/start_prompt.txt",
+      "destination": "pi-home/start_prompt.txt",
+      "sha256": "10a961182e78e59c207f3e307e3808e0ba0536e5193768707489a3cc07eb1e2d"
+    },
+    {
+      "source": "README.md",
+      "destination": "README.md",
+      "sha256": "81a117ff8863524da002f2ff5c755446283d72b86ae3d9575c44ceea957f8fb4"
+    },
+    {
+      "source": "release/check-syntax.ps1",
+      "destination": "release/check-syntax.ps1",
+      "sha256": "7f3cc5a440f9ba8b649cb3356a7a4927335dc2e84e582a30dc6bee786fb60f10"
+    },
+    {
+      "source": "release/create_manifest.py",
+      "destination": "release/create_manifest.py",
+      "sha256": "135a9d7e6d586d38899008a015454228f9be26aa700d7356d46bb8d15c1f5c0a"
+    },
+    {
+      "source": "release/defaults/config.ini",
+      "destination": "release/defaults/config.ini",
+      "sha256": "cc4c569100cd9fec6c1e53335f9df831e47d1a35f870321fdd0925bfce900ffb"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/auth.json",
+      "destination": "release/defaults/pi-home/agent/auth.json",
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/settings.json",
+      "destination": "release/defaults/pi-home/agent/settings.json",
+      "sha256": "c5944a277a8d139bdfaa50602263a4a1817088b4e8d501d320570cfeee0e7153"
+    },
+    {
+      "source": "release/policy.ps1",
+      "destination": "release/policy.ps1",
+      "sha256": "5064114cb10ade8605d9d86d3542c76fe9e7aece1ac8d22b37d91bb4bac06be7"
+    },
+    {
+      "source": "release/verify.py",
+      "destination": "release/verify.py",
+      "sha256": "5454dd1ebcf63c5316ac0bb24dd43954ee654d2a80428542ee54421b188fac6c"
+    },
+    {
+      "source": "runtime/pi/pi.cmd",
+      "destination": "runtime/pi/pi.cmd",
+      "sha256": "db7c7f96ec2c22be689bc5357db6bdba1e307902d9ec80adf57adb4a7b6d401e"
+    },
+    {
+      "source": "start.bat",
+      "destination": "start.bat",
+      "sha256": "842b9e70fded23335f143dce4976a367aae5088c2ea3f54ddd6bcd3359afbbca"
+    },
+    {
+      "source": "start_pi.bat",
+      "destination": "start_pi.bat",
+      "sha256": "e152559733592ab3d62b4743479717589396e026784816b1ef3a9f79f2c45726"
+    },
+    {
+      "source": "tests/packaging.ps1",
+      "destination": "tests/packaging.ps1",
+      "sha256": "0556b9c46253a84956851d09da39c3db0390b23d260d6ef36dd45ce9a843c752"
+    },
+    {
+      "source": "tests/test_release_scan.py",
+      "destination": "tests/test_release_scan.py",
+      "sha256": "759d425e75ef79c3a474535bf73028de5c126ef871d5fed47cc06fab1fd53cc8"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@anthropic-ai/sdk/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@anthropic-ai/sdk/LICENSE",
+      "sha256": "8bf96984ff8bcfae7e48cae76a529e8a25317ba9e02abf7fd3cc64fdf95657a6"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws/lambda-invoke-store/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws/lambda-invoke-store/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/crc32/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/crc32/LICENSE",
+      "sha256": "db1ed8cccea0d0fb5d92b7c59d9aa78a5bbcd047972519c6a21a4416937f2ebf"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-browser/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-browser/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-js/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/sha256-js/LICENSE",
+      "sha256": "6dc0e068dcf3a5bc8e054205b85b7720e1d49265bbc64bf515d2cf79197df69a"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/supports-web-crypto/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/supports-web-crypto/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/util/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-crypto/util/LICENSE",
+      "sha256": "db1ed8cccea0d0fb5d92b7c59d9aa78a5bbcd047972519c6a21a4416937f2ebf"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/client-bedrock-runtime/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/client-bedrock-runtime/LICENSE",
+      "sha256": "18c295fdd68d4f68418b0209829f241481e93549d9e7b9fcd4b4c029322c8a45"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/core/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/core/LICENSE",
+      "sha256": "edea91454b811f127fbdea3d86f378f6719bd372ed440abf82b232f6fca06c3d"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-env/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-env/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-ini/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-ini/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-node/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-node/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-process/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-process/LICENSE",
+      "sha256": "2ef1e48ea743d9c82313e6887858f7c1feaddd636f5a3f43926aab0143e67ebd"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-sso/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-sso/LICENSE",
+      "sha256": "2ef1e48ea743d9c82313e6887858f7c1feaddd636f5a3f43926aab0143e67ebd"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-web-identity/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/credential-provider-web-identity/LICENSE",
+      "sha256": "2ef1e48ea743d9c82313e6887858f7c1feaddd636f5a3f43926aab0143e67ebd"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/eventstream-handler-node/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/eventstream-handler-node/LICENSE",
+      "sha256": "07364a5f7d0177a59a05a0002187431f8f899320983c0dc049d72df015e8064c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-eventstream/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-eventstream/LICENSE",
+      "sha256": "e345c2ee7df4446e739de7b91535f0c10ddcd909b9753889e943ee637b05db8c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-websocket/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/middleware-websocket/LICENSE",
+      "sha256": "07364a5f7d0177a59a05a0002187431f8f899320983c0dc049d72df015e8064c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/signature-v4-multi-region/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/signature-v4-multi-region/LICENSE",
+      "sha256": "07364a5f7d0177a59a05a0002187431f8f899320983c0dc049d72df015e8064c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/token-providers/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/token-providers/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/types/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/types/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/util-locate-window/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/util-locate-window/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/xml-builder/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@aws-sdk/xml-builder/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@babel/runtime/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@babel/runtime/LICENSE",
+      "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@google/genai/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@google/genai/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/aspromise/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/aspromise/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/base64/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/base64/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/codegen/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/codegen/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/eventemitter/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/eventemitter/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/fetch/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/fetch/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/float/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/float/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/path/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/path/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/pool/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/pool/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/utf8/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@protobufjs/utf8/LICENSE",
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@silvia-odwyer/photon-node/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@silvia-odwyer/photon-node/LICENSE.md",
+      "sha256": "c984c291167af70cc5fb7c7f4cec9b4560565110b766a718b3e12aba650327a7"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/core/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/core/LICENSE",
+      "sha256": "07364a5f7d0177a59a05a0002187431f8f899320983c0dc049d72df015e8064c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/credential-provider-imds/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/credential-provider-imds/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/fetch-http-handler/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/fetch-http-handler/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/is-array-buffer/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/is-array-buffer/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/node-http-handler/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/node-http-handler/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/signature-v4/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/signature-v4/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/types/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/types/LICENSE",
+      "sha256": "07364a5f7d0177a59a05a0002187431f8f899320983c0dc049d72df015e8064c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-buffer-from/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-buffer-from/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-utf8/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@smithy/util-utf8/LICENSE",
+      "sha256": "d82ceb8cbd004a2d4834085c557d55459f528e30268d95159ee1e4030a693a6e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@stablelib/base64/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@stablelib/base64/LICENSE",
+      "sha256": "1605b77bebe018db1fc27bd22fbcdeed1335c617937a124299a8b042b42b0fb6"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@types/node/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/@types/node/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/agent-base/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/agent-base/LICENSE",
+      "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/balanced-match/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/balanced-match/LICENSE.md",
+      "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/base64-js/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/base64-js/LICENSE",
+      "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/bowser/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/bowser/LICENSE",
+      "sha256": "dfde54fedc270c2a305d9a9f993d93f706d34624455a2fd2d2a05ca34d8ae8c3"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/brace-expansion/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/brace-expansion/LICENSE",
+      "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/buffer-equal-constant-time/LICENSE.txt",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/buffer-equal-constant-time/LICENSE.txt",
+      "sha256": "751d0e80fb5c828f8c3de198cc760e1e05377e47c8263ab6ee2f10cdc19ba658"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/chalk/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/chalk/license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/cross-spawn/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/cross-spawn/LICENSE",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/debug/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/debug/LICENSE",
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/diff/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/diff/LICENSE",
+      "sha256": "eda81a415869e67809f6a9f3fd6056062cb83a462118e07eec5e92b2e0c40ce9"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ecdsa-sig-formatter/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ecdsa-sig-formatter/LICENSE",
+      "sha256": "50a6b24f8defc31a078aa9799a91d776f83948071574854f12473362aee74d0d"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/esbuild/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/esbuild/LICENSE.md",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/extend/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/extend/LICENSE",
+      "sha256": "97af7428f93afbab9bf79cd09254da1357161794f4255eb1b4599f04dd2d2e7c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-sha256/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-sha256/LICENSE",
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-builder/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-builder/LICENSE",
+      "sha256": "8e75fc0e776c62ccadb8178ece8d3daa9ba7601fb0a49b2dfb0ea9a7a5c0aa07"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-parser/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fast-xml-parser/LICENSE",
+      "sha256": "7883225d5e84a6bbb9b170c3d891b4bf6d6259cee869c86bd86381a927071745"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fetch-blob/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/fetch-blob/LICENSE",
+      "sha256": "a5edccac92c3aa845694dcfaa72a0c098c1ae40d5ca6a37e4e59d778cf8e29bd"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/formdata-polyfill/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/formdata-polyfill/LICENSE",
+      "sha256": "435a6437e47e5e479942255680e7fbe5f333d55234ada1c35f6115ca641d5bb4"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gaxios/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gaxios/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gcp-metadata/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/gcp-metadata/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/get-east-asian-width/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/get-east-asian-width/license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-auth-library/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-auth-library/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-logging-utils/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/google-logging-utils/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/graceful-fs/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/graceful-fs/LICENSE",
+      "sha256": "f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/grok-mermaid/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/grok-mermaid/LICENSE",
+      "sha256": "d7aefc12620699f8cebff08097f5ec76b984d1ab19d4f5f10608b916fa62ba2f"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/highlight.js/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/highlight.js/LICENSE",
+      "sha256": "6c081431591d9df696c82dc598fe1423765b8a299b200ed00b281afd0f64c490"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/hosted-git-info/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/hosted-git-info/LICENSE",
+      "sha256": "c1476ec53119cd4c8370f91f5152ac76312a29b4fae2d49b5e0e0970fe0fa5ee"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/http-proxy-agent/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/http-proxy-agent/LICENSE",
+      "sha256": "71368fd0f5b4129191e9afcd1e1ef2dc89a9090d3e4d80bbab92dafd032b3bef"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/https-proxy-agent/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/https-proxy-agent/LICENSE",
+      "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ignore/LICENSE-MIT",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ignore/LICENSE-MIT",
+      "sha256": "9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/isexe/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/isexe/LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jiti/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jiti/LICENSE",
+      "sha256": "46231df5a7733c3f52f11b71f3df61813007745b62b09031acfb45fb42d75082"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-bigint/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-bigint/LICENSE",
+      "sha256": "def82c085d05e795fe6a9cb5b70c48e022212355afc0e91d4de047cade28df06"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-schema-to-ts/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/json-schema-to-ts/LICENSE",
+      "sha256": "18a2bfd070b08bd1cc538c90f59989a9523e070e72fe9a9068593c3e82f44fa7"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jwa/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jwa/LICENSE",
+      "sha256": "3320319f8a5f42bc4254e65471eca7a5ea4dc8c883c4c24b4868e36b14890bcf"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jws/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/jws/LICENSE",
+      "sha256": "3320319f8a5f42bc4254e65471eca7a5ea4dc8c883c4c24b4868e36b14890bcf"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/long/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/long/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/lru-cache/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/lru-cache/LICENSE.md",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/marked/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/marked/LICENSE",
+      "sha256": "8e3a3f82f59a60958f56ca08f445647c32a4733dc7ca6c2c46f6eb898471ab9c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/minimatch/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/minimatch/LICENSE.md",
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ms/license.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ms/license.md",
+      "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-domexception/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-domexception/LICENSE",
+      "sha256": "8ec1386f7f078b0c7cd25341cd80f332df902371cda9f40c10ec2b4007b420b7"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-fetch/LICENSE.md",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/node-fetch/LICENSE.md",
+      "sha256": "3e2c11dcf3f17ab585baab8faba54772d7872f1c6e026022acd4b4006665efb0"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/openai/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/openai/LICENSE",
+      "sha256": "636eb7d79da9bb6d515a4b3fd417aa26679eb3cf16396ddab4bc55fa74e616e4"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/node_modules/@types/retry/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/p-retry/node_modules/@types/retry/LICENSE",
+      "sha256": "dea9265341829002e2c23a7372393eb2ed6e26085fb623f38a4ba0af833f30a6"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/partial-json/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/partial-json/LICENSE",
+      "sha256": "cd519ad3d7e012427f978dfb2e3b92ee403d189d7b859ba6bf68fd7e12ca456f"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-expression-matcher/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-expression-matcher/LICENSE",
+      "sha256": "75486ea0af9309140ca6e2c401d7e67bea8f4892344e5707f6394dc5e83dfc44"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-key/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/path-key/license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/LICENSE",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/node_modules/retry/License",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/proper-lockfile/node_modules/retry/License",
+      "sha256": "01ad164273e8e095abc9dbd1c21e194594a671af7d528cb43ee7b4c903ba7da3"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/protobufjs/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/protobufjs/LICENSE",
+      "sha256": "49d6a1c9a623784c61c6cb70f773f3457faceb1914a13c8560a9823b7631950c"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/retry/License",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/retry/License",
+      "sha256": "01ad164273e8e095abc9dbd1c21e194594a671af7d528cb43ee7b4c903ba7da3"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/safe-buffer/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/safe-buffer/LICENSE",
+      "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/semver/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/semver/LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-command/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-command/license",
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-regex/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/shebang-regex/license",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/signal-exit/LICENSE.txt",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/signal-exit/LICENSE.txt",
+      "sha256": "e05b1eaf5b5f99b7ad75cd1f38858ff9a311780b97715ead67936d60bf96aa7e"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/strnum/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/strnum/LICENSE",
+      "sha256": "2aa16be0f4fad003a352a955a43314e9d1d8deef7034060a82ac9c49f32b81e2"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ts-algebra/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ts-algebra/LICENSE",
+      "sha256": "18a2bfd070b08bd1cc538c90f59989a9523e070e72fe9a9068593c3e82f44fa7"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/tslib/LICENSE.txt",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/tslib/LICENSE.txt",
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/typebox/license",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/typebox/license",
+      "sha256": "e8a7cc256941a26ba8234f04390165243a4d42f74fd6491934140605bf7eae2d"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici/LICENSE",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici-types/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/undici-types/LICENSE",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/web-streams-polyfill/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/web-streams-polyfill/LICENSE",
+      "sha256": "81008a3fb78f69f3c4a72a9e005c8582342ab62864371b3ab8e1b6af9041e080"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/which/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/which/LICENSE",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ws/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/ws/LICENSE",
+      "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef"
+    },
+    {
+      "source": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/yaml/LICENSE",
+      "destination": "third-party/licenses/node_modules/@earendil-works/pi-coding-agent/node_modules/yaml/LICENSE",
+      "sha256": "5bba27375d93e9119f76c1015f7672cf9ad5f70952296e0842fb2243d6376869"
+    },
+    {
+      "source": "third-party/observed-packages.json",
+      "destination": "third-party/observed-packages.json",
+      "sha256": "1cb4509df686d6aeb9cebf86adf69d742bdd2c86ec4c2d761895403546b278fd"
+    },
+    {
+      "source": "third-party/observed-tools.json",
+      "destination": "third-party/observed-tools.json",
+      "sha256": "97d750cc9d871094d8ee6a5def96aa49f6bef76697d5aa88d4573ede6d78b7bb"
+    },
+    {
+      "source": "THIRD_PARTY_NOTICES.md",
+      "destination": "THIRD_PARTY_NOTICES.md",
+      "sha256": "4a45b0051c6f23d05a13360f39fadb27cedd897164e8cb3c2fd2308713f19801"
+    },
+    {
+      "source": "tools/archive_records.ps1",
+      "destination": "tools/archive_records.ps1",
+      "sha256": "8b3d2a4dbb84f3420a2a86d60337778f782d9f349c7cda96c17721324504d3fa"
+    },
+    {
+      "source": "tools/fix_usb.bat",
+      "destination": "tools/fix_usb.bat",
+      "sha256": "07f6ab91f02d3157cf63b0c886fe4aebabf2d918031c05f3e25cb1e126933d32"
+    },
+    {
+      "source": "tools/fix_usb.ps1",
+      "destination": "tools/fix_usb.ps1",
+      "sha256": "3754a95dcf115f989c610f43fd816af8e9637744293bafeba95bbd9710451cf9"
+    },
+    {
+      "source": "tools/menu-elevate.vbs",
+      "destination": "tools/menu-elevate.vbs",
+      "sha256": "cdaeffde35d94b9943d22c584f12d7c2c91e444c880b3ecabbd0a01e54b645fa"
+    },
+    {
+      "source": "tools/menu-launch.cmd",
+      "destination": "tools/menu-launch.cmd",
+      "sha256": "bb382bff39e52666128dd7cbaff35cdf516085423ee6bb816d663d443c3c600f"
+    },
+    {
+      "source": "tools/setup_archive.ps1",
+      "destination": "tools/setup_archive.ps1",
+      "sha256": "49e49f68289366b44bf78c4e46dd5348e85eb85db58ccf39b301f1364df1b977"
+    },
+    {
+      "source": "tools/start_menu.bat",
+      "destination": "tools/start_menu.bat",
+      "sha256": "2da9330da3f7949a8c2484fa3fa871117fcedc4d265cd0fb89e85132754e2d66"
+    },
+    {
+      "source": "tools/sync_from_usb.ps1",
+      "destination": "tools/sync_from_usb.ps1",
+      "sha256": "1fcbe6b548fc81584f520a0413aa2c1d76a875434554fe259be0533364445946"
+    },
+    {
+      "source": "tools/使用说明.txt",
+      "destination": "tools/使用说明.txt",
+      "sha256": "1ec03d26ad273d1a96c7bfbf01d6a0521909d5ad3caf3e5498d392b30849227b"
+    },
+    {
+      "source": "tools/启动维修助手.bat",
+      "destination": "tools/启动维修助手.bat",
+      "sha256": "9340c1eda4942cc6a539fd699c99665114b4717690eee78418156e3ed713a8a4"
+    },
+    {
+      "source": "使用说明.txt",
+      "destination": "使用说明.txt",
+      "sha256": "977639131a0609b14928b5947f2dfe5cf5260ae3eeee0f45e1e78bc0ed81ef6d"
+    },
+    {
+      "source": "release/approved-paths.json",
+      "destination": "release/approved-paths.json",
+      "sha256": "d37133cf2751d5a2e08521230af28a35b372b34790c402d03e6aa399330c4d67"
+    },
+    {
+      "source": "release/defaults/config.ini",
+      "destination": "config.ini",
+      "sha256": "cc4c569100cd9fec6c1e53335f9df831e47d1a35f870321fdd0925bfce900ffb"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/auth.json",
+      "destination": "pi-home/agent/auth.json",
+      "sha256": "e3566b3a06430868d71e9287dfd6c6c520a3da027aabea01951d407ee131dc2f"
+    },
+    {
+      "source": "release/defaults/pi-home/agent/settings.json",
+      "destination": "pi-home/agent/settings.json",
+      "sha256": "c5944a277a8d139bdfaa50602263a4a1817088b4e8d501d320570cfeee0e7153"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "sha256": "3bdf437610d2b6790ab19fc16011bf3376ac0708830fc255fd532d068fac1eae"
+    },
+    {
+      "source": "PRIVACY.md",
+      "destination": "PRIVACY.md",
+      "sha256": "c57ec9d88907e85533ba7a00d2c6c5f427a82a4b5ef93d382507de0242ecb797"
+    },
+    {
+      "source": "SIGNING_POLICY.md",
+      "destination": "SIGNING_POLICY.md",
+      "sha256": "8c316cde94508130efbf11f950672aa8adaf96a1dcce9e75729e870fd63e5665"
+    },
+    {
+      "source": "docs/LICENSING.md",
+      "destination": "docs/LICENSING.md",
+      "sha256": "0aa742a637c992e79ee9abea31d069f3d31ff53e43beab8b31c4d4b44476cb08"
+    },
+    {
+      "source": "docs/SIGNPATH-APPLICATION.md",
+      "destination": "docs/SIGNPATH-APPLICATION.md",
+      "sha256": "40941508f5557deddb91142500acd51b72c97447cdd1e2dc1db6eb2862dd6304"
+    }
+  ]
+}

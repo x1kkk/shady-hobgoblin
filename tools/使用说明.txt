@@ -1,0 +1,6 @@
+﻿USB 刷新：fix_usb.ps1 -UsbRoot <目录> -SkipRuntime
+完整运行时请提供 -RuntimeManifest，默认创建全新安装子目录。
+不覆盖旧目录，不默认修改 ACL，不自动提权。
+权限修复需显式 -RepairPermissions、自行管理员运行并输入 ACL。
+入口使用相对位置 cmd/vbs，未分发旧 lnk。
+构建和同步的公开/私人模式详见 ../README.md。
