@@ -965,7 +965,7 @@
     {
       "source": "SIGNING_POLICY.md",
       "destination": "SIGNING_POLICY.md",
-      "sha256": "8c316cde94508130efbf11f950672aa8adaf96a1dcce9e75729e870fd63e5665"
+      "sha256": "270a927c2cb9d9a762b809e352ca0bdf133441416c5367f7c345c516ea975716"
     },
     {
       "source": "docs/LICENSING.md",
@@ -975,7 +975,7 @@
     {
       "source": "docs/SIGNPATH-APPLICATION.md",
       "destination": "docs/SIGNPATH-APPLICATION.md",
-      "sha256": "40941508f5557deddb91142500acd51b72c97447cdd1e2dc1db6eb2862dd6304"
+      "sha256": "94d1ac05f4b15fb239b7881513ea4e82f8a160a61f650e6d3c18111a5793254d"
     }
   ]
 }
